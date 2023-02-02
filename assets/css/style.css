@@ -1,168 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-*{
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
 }
 
 /* Inicio Pagina Index*/
-body{
-background-color:#AF7AC5;
+body {
+  background-color: #AF7AC5;
 }
 
-h1{
-    margin: 10px;
-    text-align: center;
-    font-family: 'Playfair Display SC', serif;
+h1 {
+  margin: 10px;
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
 }
 
-.menuindex{
-    background-color: #fff3ec;
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
+.menuindex {
+  background-color: #fff3ec;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
 }
 
-.menuindex ul li{
-    display: inline-block;
+.menuindex ul li {
+  display: inline-block;
 }
 
-
-.menuindex ul li a{
-    color: rgb(8, 8, 8);
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.menuindex ul li a {
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.menuindex ul li a:hover{
-    color:#e53170 ;
+.menuindex ul li a:hover {
+  color: #e53170;
 }
 
-.logo{
-    text-align: center;
+.logo {
+  text-align: center;
 }
 
-footer{
-    background-color:#fff3ec;
-    text-align: center;
-    margin-top: 3vh;
-    padding: 9px;
+footer {
+  background-color: #fff3ec;
+  text-align: center;
+  margin-top: 3vh;
+  padding: 9px;
 }
 
-footer a{
-    color: #000;
-    font-size: 25px;
+footer a {
+  color: #000;
+  font-size: 25px;
 }
 
-footer a:hover{
-    color:#e53170;
+footer a:hover {
+  color: #e53170;
 }
+
 /* Fin Pagina Index */
-
 /* Principio Pagina Contacto */
-
-.titulo{
-    font-size: 20px;
+.titulo {
+  font-size: 20px;
 }
 
-.inicio{
-    padding-left: 50px;
-    font-size: 30px;
-    color: #000;
+.inicio {
+  padding-left: 50px;
+  font-size: 30px;
+  color: #000;
 }
 
-.inicio:hover{
-    padding-left: 50px;
-    font-size: 30px;
-    color:brown
+.inicio:hover {
+  padding-left: 50px;
+  font-size: 30px;
+  color: brown;
 }
 
-h2{
-    text-align: center;
-    font-family:'Bebas Neue', cursive; ;
-    font-size: 60px;
+h2 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
 }
 
-.cont{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+.cont {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-.contec{
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 120px;
-    padding-right: 120px;
+.contec {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
-.formulario{
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
+.formulario {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
 }
 
-.fcontacto{
-    margin-top: 95px;
+.fcontacto {
+  margin-top: 95px;
 }
-
 
 /* Fin Pagina Contacto */
-
 /* Inicio Pagina Productos */
-
-.imgproductos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    padding-top: 30px;
+.imgproductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 30px;
 }
 
-.info{
-    font-size: 20px;
+.info {
+  font-size: 20px;
 }
 
 /* Fin Pagina Productos */
-
 /* Inicio Pagina Como Comprar */
-
-h3{
-    font-size: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 19px;
+h3 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 19px;
 }
 
-.h3p{
-    font-size: 18px;
-    padding-top:0;
+.h3p {
+  font-size: 18px;
+  padding-top: 0;
 }
 
-.compra{
-    font-size: 18px;
+.compra {
+  font-size: 18px;
 }
 
 /* Fin Pagina Como Comprar */
-
 /* Inicio Pagina Politica de Cambios */
-
-#bloque{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+#bloque {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bloque__2{
-    padding-top: 40px;
+.bloque__2 {
+  padding-top: 40px;
 }
 
-.bloque__2__3 p{
-font-size: 25px;
+.bloque__2__3 p {
+  font-size: 25px;
 }
 
-.texto{
-    color: rgb(169, 31, 31);
+.texto {
+  color: rgb(169, 31, 31);
 }
 
 /* Fin Pagina Politica de Cambios */
